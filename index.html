@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yashi fitness</title>
+    
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+    <style>
+        /* css Reset*/
+        body{
+            margin: 0px;
+            padding: 0px;
+            background: url("https://c4.wallpaperflare.com/wallpaper/73/900/929/sports-fitness-asian-brunette-wallpaper-preview.jpg");
+            background-repeat:no-repeat;
+            color:black;
+            background-size: 1400px 1024px;/*width height*/
+            font-family: 'Baloo Bhai ', cursive;
+
+        }
+        .left{
+           /* border:2px solid red;*/
+            display:inline-block;
+            position:absolute;
+            left:60px;
+            top:20px;
+        }
+        .mid{
+           /* border:10px solid green;*/
+            display:block;
+            width:50%;
+            margin:45px auto;
+
+        }
+        .right{
+         /*   border:2px solid red;*/
+            display:inline-block;
+            position:absolute;
+            right:34px;
+            top:43px;
+        }
+        .navbar{
+          display:inline-block;
+        }
+        .navbar li{
+           display:inline-block;
+            font-size:20px;
+        }
+        .navbar li a{
+            color:black;
+            text-decoration: none;
+            padding:34px 23px;
+            font-family:'Baloo Bhai',cursive;
+        }
+        .navbar li a:hover {
+            text-decoration: underline;
+            color:grey;
+
+        } 
+        .btn{
+            padding:4px 14px;
+            margin:0px 9px;
+            font-size:20px;
+            cursor:pointer;
+            border:2px solid grey;
+            color:white;
+            font-family:'Baloo Bhai',cursive;
+            background-color: black;
+            border-radius: 10px;
+        }
+        .btn:hover{
+            background-color:rosybrown;
+
+        }
+        .container{
+           /* border:2px solid white;*/
+            margin:106px 80px;
+            padding:75px;
+            width:40%;
+           /* border-radius:28px;*/
+            font-family:'Baloo Bhai',cursive;
+        }
+        .form-group input{
+            text-align: center;
+            display:block;
+            width:508px;
+            padding:1px;
+            /*border:2px solid black;*/
+            margin:11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+            font-family:'Baloo Bhai',cursive;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display:block;
+            width:74%;
+            margin:20px auto;
+        }
+        .left img{
+            width:136px;
+            filter:invert(100%);
+
+        }
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 26px;
+            font-family:'Baloo Bhai',cursive;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="header">
+        <!--left class for logo-->
+        <div class="left">
+            
+        <div>Yashi Fitness</div>
+        </div>
+        <!--mid class for navbar-->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <!--Right class for buttons-->
+        <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email US</button>
+        </div>
+        </header>
+        <div class="container">
+            <h1>Join The Best Gym of Agra Now</h1>
+            <form  action="noaction.php">
+                <div class="form-group">
+                    <input type="text"  name="myName" id="name"placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="age" id="age" placeholder="Enter Your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="myGender"id="gender" placeholder="Enter Your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="myLocality"id="locality" placeholder="Enter Your Locality">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="myEmail"id="Email" placeholder="Enter Your Email Id">
+                </div>
+                <div class="form-group">
+                    <input type="number" name="myPhoneNumber"id="phone number" placeholder="Enter Your Phone Number">
+                </div>
+                <button class="btn">Submit </button>
+            </form>
+
+
+        </div>
+    
+</body>
+</html>
